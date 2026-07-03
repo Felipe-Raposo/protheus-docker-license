@@ -8,7 +8,7 @@ Este projeto monta uma imagem Docker TOTVS License Server, sobre Oracle Linux 9.
 
 ### Características
 
-- **Base:** feliperaposo/protheus-base:24 (Onça Preta)
+- **Base:** feliperaposo/protheus-docker-base:24 (Onça Preta)
 - **License Server:** License (porta TCP 5555)
 - **License Server Monitor:** WebApp (porta TCP 1234)
 
@@ -41,7 +41,7 @@ Gera as tags:
 
 ## Estrutura interna (referência)
 
-- **Entrypoint:** `/dbaccess.sh`
+- **Entrypoint:** `/protheus.sh`
 - **Configuração:** `/protheus12/bin/appserver/appserver.ini`
 
 ## Licença
