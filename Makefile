@@ -3,7 +3,7 @@ export DOCKER_BUILDKIT := 1
 IMAGE_REPO := feliperaposo
 NAME := $(IMAGE_REPO)/protheus-license
 VERSION := 3
-MINOR_VERSION := 3.7.0
+MINOR_VERSION := 3.7.2
 
 .PHONY: build release release_latest
 

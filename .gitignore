@@ -1,0 +1,7 @@
+# Artefatos de SO
+.DS_Store
+**/.DS_Store
+
+# Metadados do projeto (não fazem parte da imagem)
+scripts/
+.extract-stage/
